@@ -65,8 +65,8 @@ parser.add_argument('--combination', type=str, default="a b c",
                     help="""R|the format is "a b c"
 a*word + b*bilstm as input to lstm
 lstm_output + c*word as input to softmax function
-if a=-1 and b=0, the model will use gating mechanism to do the combination
-if a=-2 and b=0, the model will use concat method to do the combination
+if a=-1 and b=-1, the model will use gating mechanism to do the combination
+if a=-2 and b=-2, the model will use concat method to do the combination
 if c=-1, the model will use a gating mechanism on word when injected into softmax""")
 
 parser.add_argument('--max_gram_n', type=int, default=3,

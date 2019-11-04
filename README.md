@@ -1,5 +1,5 @@
 ## Injecting Word-level Information into Character-aware NLMs
-Pytorch Implementation of CoNLL 2019 paper [A Simple and Effective Method for Injecting Word-level Information into Character-aware Neural Language Models] (not_available_yet)
+Pytorch Implementation of CoNLL 2019 paper [A Simple and Effective Method for Injecting Word-level Information into Character-aware Neural Language Models](https://www.aclweb.org/anthology/K19-1086.pdf)
  
 ## Requirements
 - Python version >= 3.5
@@ -22,6 +22,3 @@ result reported in the paper.
 ```
 sh run.sh
 ```
-
-## Citation
-to add

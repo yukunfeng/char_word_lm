@@ -6,7 +6,7 @@ Pytorch Implementation of CoNLL 2019 paper [A Simple and Effective Method for In
 - Pytorch version 0.4.0
 
 ## Datasets
-We used a subset of [lmmrl](http://people.ds.cam.ac.uk/dsg40/lmmrl.html) datasets containing 50 different languages ([Gerz et al., 2018](https://www.aclweb.org/anthology/Q18-1032.pdf)). Currently the link seems broken and I have uploaded one English dataset for testing under 'data' directory.
+We used a subset of [lmmrl](http://people.ds.cam.ac.uk/dsg40/lmmrl.html) datasets containing 50 different languages ([Gerz et al., 2018](https://www.aclweb.org/anthology/Q18-1032.pdf)). Currently the download link seems broken and I have uploaded one English dataset for testing under 'data' directory.
 
 ## Usage
 

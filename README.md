@@ -46,7 +46,7 @@ Some main options are explained as follows. See more using `python main.py -h`
   --note NOTE           extra note in final one-line result output
 ```
 
-## Run experiments reported in the paper
+## Reproduce results in the paper
 
 Run model Char-BiLSTM-add-Word-LSTM-Word(g=0.5,n=1) in the paper:
 ```

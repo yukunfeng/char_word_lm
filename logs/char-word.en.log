@@ -1,0 +1,36 @@
+Namespace(batch_size=20, bptt=35, clip=0.25, combination=['1', '1', '0'], data='/home/lr/yukun/common_corpus/data/50lm/en', device='cuda:0', dropout=0.5, emsize=650, epochs=40, input_freq=1, log_interval=200, lr=20, max_gram_n=3, model='LSTM', nhid=650, nlayers=2, note='Char-BiLSTM-add-Word-LSTM-Word(g= 0.5,n= 2)', onnx_export='', save='char-word.en.model', seed=1111, tied=False, use_bilstm=True, weights=[1.0, 1.0, 0.0], word_out_num=1)
+max length of word:35
+n value in n-gram: 3
+/home/lr/yukun/common_corpus/data/50lm/en Char-BiLSTM-add-Word-LSTM-Word(g= 0.5,n= 2) total param_num: 101.852M
+/home/lr/yukun/common_corpus/data/50lm/en Char-BiLSTM-add-Word-LSTM-Word(g= 0.5,n= 2) decoder vocab size: 55524
+/home/lr/yukun/common_corpus/data/50lm/en Char-BiLSTM-add-Word-LSTM-Word(g= 0.5,n= 2) encoder vocab size: 55524
+/home/lr/yukun/common_corpus/data/50lm/en Char-BiLSTM-add-Word-LSTM-Word(g= 0.5,n= 2) ngram vocab size: 23427
+| end of epoch   1 | time: 84.71s | valid loss  6.31 | valid ppl   552.08 lr:20.00
+| end of epoch   2 | time: 86.35s | valid loss  6.05 | valid ppl   422.63 lr:20.00
+| end of epoch   3 | time: 86.47s | valid loss  5.91 | valid ppl   368.67 lr:20.00
+| end of epoch   4 | time: 86.58s | valid loss  5.82 | valid ppl   336.43 lr:20.00
+| end of epoch   5 | time: 86.45s | valid loss  5.78 | valid ppl   322.92 lr:20.00
+| end of epoch   6 | time: 86.51s | valid loss  5.74 | valid ppl   310.50 lr:20.00
+| end of epoch   7 | time: 86.36s | valid loss  5.72 | valid ppl   305.16 lr:20.00
+| end of epoch   8 | time: 86.46s | valid loss  5.71 | valid ppl   300.79 lr:20.00
+| end of epoch   9 | time: 86.41s | valid loss  5.72 | valid ppl   305.05 lr:20.00
+| end of epoch  10 | time: 86.32s | valid loss  5.65 | valid ppl   285.48 lr: 5.00
+| end of epoch  11 | time: 86.34s | valid loss  5.66 | valid ppl   285.76 lr: 5.00
+| end of epoch  12 | time: 86.42s | valid loss  5.63 | valid ppl   278.38 lr: 1.25
+| end of epoch  13 | time: 86.42s | valid loss  5.63 | valid ppl   278.21 lr: 1.25
+| end of epoch  14 | time: 86.44s | valid loss  5.63 | valid ppl   279.00 lr: 1.25
+| end of epoch  15 | time: 86.41s | valid loss  5.62 | valid ppl   276.32 lr: 0.31
+| end of epoch  16 | time: 86.46s | valid loss  5.62 | valid ppl   276.29 lr: 0.31
+| end of epoch  17 | time: 86.36s | valid loss  5.62 | valid ppl   276.08 lr: 0.31
+| end of epoch  18 | time: 86.37s | valid loss  5.62 | valid ppl   276.16 lr: 0.31
+| end of epoch  19 | time: 86.42s | valid loss  5.61 | valid ppl   273.47 lr: 0.08
+| end of epoch  20 | time: 86.42s | valid loss  5.61 | valid ppl   273.18 lr: 0.08
+| end of epoch  21 | time: 86.34s | valid loss  5.61 | valid ppl   273.22 lr: 0.08
+all training time elapsed: 0:30:13.038089
+training time per epoch: 0:00:45.325952
+=========================================================================================
+| End of training | test loss  5.70 | best_val_ppl   273.18 test ppl   297.53
+=========================================================================================
+final_out: /home/lr/yukun/common_corpus/data/50lm/en Char-BiLSTM-add-Word-LSTM-Word(g= 0.5,n= 2) 273.17696965298904 297.5255853587611
+1-15, 15-30, 30-45, 45-60, 60-75, 75-90, 90+
+[238.24885003089423, 175.4972757331598, 124.6919969325264, 139.4854295111581, 170.0514042089371, 331.0730602977848, 0]
